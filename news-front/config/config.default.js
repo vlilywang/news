@@ -1,10 +1,10 @@
 exports.mysql = {
     client: {
-        host: 'localhost',
+        host: '10.18.43.12',
         port: '3306',
-        user: 'other',
-        password: '112358',
-        database: 'news',
+        user: 'root',
+        password: 'root',
+        database: 'news_wll',
     },
     app: true,
     agent: false,
