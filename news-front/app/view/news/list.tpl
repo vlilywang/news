@@ -5,7 +5,7 @@
   </head>
   <body>
     <ul class="news-view view">
-      {% for item in list %}
+      {% for item in areaslist %}
         <li class="item">
           <a href="{{ item.url }}">{{ item.title }}</a>
           <span>{{ item.publishTime }}</span>
